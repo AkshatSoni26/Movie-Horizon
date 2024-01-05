@@ -15,7 +15,6 @@ const ListMaker = ({ data }) => {
 
     useEffect(
         () => {
-            // Scroll to the top when the route changes
             window.scrollTo(10, 0);
         }, [id]
     )

@@ -109,38 +109,38 @@ img {
     margin-top: -10vh;
 }
 
-#FullScreen   img {
-        width: 123px;
-        height: 179px;
-        flex-shrink: 0;
-        /* margin-bottom: 40px; */
-        transition: transform 0.3s ease-in-out;
-        border-radius: 6px;
-        box-shadow: 0px 1px 2px 0px black;
-    }
+#FullScreen img {
+    width: 123px;
+    height: 179px;
+    flex-shrink: 0;
+    /* margin-bottom: 40px; */
+    transition: transform 0.3s ease-in-out;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px 0px black;
+}
 
-    #FullScreen   img:hover {
-        /* position: relative; */
-        transform: scale(1.7);
-        z-index: 10000;
-        margin: 0px 60px;
-        bottom: 134px;
-    }
+#FullScreen img:hover {
+    /* position: relative; */
+    transform: scale(1.7);
+    z-index: 10000;
+    margin: 0px 60px;
+    bottom: 134px;
+}
 
-    #FullScreen    .movie-title-2 {
-        bottom: 20px;
-        left: 20px;
-        width: 100vw;
-        width: 220px;
-        z-index: 10000;
-        bottom: 100px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        flex-wrap: nowrap;
-        align-items: center;
-        transition: scale(1) 0.6s ease-in-out;
-    }
+#FullScreen .movie-title-2 {
+    bottom: 20px;
+    left: 20px;
+    width: 100vw;
+    width: 220px;
+    z-index: 10000;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    transition: scale(1) 0.6s ease-in-out;
+}
 
 
 .Header,
@@ -223,4 +223,10 @@ input {
     outline: none;
     border: none;
     border-bottom: 2px solid;
+}
+
+
+.connect-link {
+    cursor: pointer;
+    margin: 8px;
 }

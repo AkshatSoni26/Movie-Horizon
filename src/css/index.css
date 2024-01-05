@@ -19,16 +19,14 @@ img {
     overflow: hidden;
 }
 
-.movie-list {
-    img {
-        width: 200px;
-        flex-shrink: 0;
-        transition: transform 0.3s ease-in-out;
-    }
+.movie-list img {
+    width: 200px;
+    flex-shrink: 0;
+    transition: transform 0.3s ease-in-out;
+}
 
-    img:hover {
-        transform: scale(1.05);
-    }
+.movie-list img:hover {
+    transform: scale(1.05);
 }
 
 .movie-name {

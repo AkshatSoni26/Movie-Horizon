@@ -107,8 +107,9 @@ img {
     width: 100vw;
     overflow: auto;
     margin-top: -10vh;
+}
 
-    img {
+#FullScreen   img {
         width: 123px;
         height: 179px;
         flex-shrink: 0;
@@ -118,7 +119,7 @@ img {
         box-shadow: 0px 1px 2px 0px black;
     }
 
-    img:hover {
+    #FullScreen   img:hover {
         /* position: relative; */
         transform: scale(1.7);
         z-index: 10000;
@@ -126,7 +127,7 @@ img {
         bottom: 134px;
     }
 
-    .movie-title-2 {
+    #FullScreen    .movie-title-2 {
         bottom: 20px;
         left: 20px;
         width: 100vw;
@@ -140,9 +141,6 @@ img {
         align-items: center;
         transition: scale(1) 0.6s ease-in-out;
     }
-
-
-}
 
 
 .Header,

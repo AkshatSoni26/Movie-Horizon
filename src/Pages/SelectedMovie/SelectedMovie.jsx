@@ -110,7 +110,7 @@ function SelectedMovie() {
         <div className='SelectedMovie px-2'>
 
             <div className='p-3 Header'>
-                <FaArrowLeft className='mouse' size={25} onClick={() => navigate(-1)} />
+                <FaArrowLeft className='mouse' size={25} onClick={() => navigate(FRONTENED_URL.HOME)} />
             </div>
 
             {

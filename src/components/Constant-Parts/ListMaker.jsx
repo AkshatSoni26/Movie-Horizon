@@ -27,7 +27,10 @@ const ListMaker = ({ data }) => {
                 data?.map(
                     (item, key) => {
                         return (
-                            <div key={key} className='p-2 position-relative mouse' onClick={() => navigate(FRONTENED_URL.SELECTED_MOVIE + '/' + item.id, { state: item })}>
+                            <div key={key} className='p-2 position-relative mouse' onClick={() => {
+                                navigate(FRONTENED_URL.SELECTED_MOVIE + '/' + item.id, { state: item, })
+                                window.location.reload()
+                            }}>
                                 <img src={tmdb.IMAGE_BASE + item?.poster_path} alt={item?.title} />
                                 <div className='movie-title position-absolute'>
                                     <div className='movie-name my-1'>{item?.title}</div>

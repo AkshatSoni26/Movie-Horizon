@@ -214,7 +214,6 @@ a:hover::before {
 
 .videos .videos-iframe:hover {
     transform: scale(1.2);
-    /* Adjust as needed for zoom effect */
 }
 
 input {

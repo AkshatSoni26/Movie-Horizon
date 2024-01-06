@@ -144,7 +144,7 @@ function SelectedMovie() {
 
 
                         {
-                            movieVideos
+                            movieVideos.length >0
                             &&
                             <div>
                                 <h3>some videos of the movie</h3>

@@ -22,7 +22,7 @@ function FullScreen({ data }) {
 
     useEffect(
         () => {
-            console.log(data)
+            // console.log(data)
             if (data) {
                 setBackgroundImage(data[0]?.backdrop_path)
                 setCurrentMovie(data[0])

@@ -13,7 +13,6 @@ function TopRated() {
 
     useEffect(
         () => {
-            console.log('App is running');
             axiosClient.get(BACKEND_URL.TOP_RATED).then(
                 (response) => {
                     const results = response.data.results

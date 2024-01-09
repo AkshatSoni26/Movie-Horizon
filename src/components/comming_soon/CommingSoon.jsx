@@ -12,7 +12,7 @@ function CommingSoon() {
 
     useEffect(
         () => {
-            console.log('App is running');
+            // console.log('App is running');
             axiosClient.get(BACKEND_URL.UPCOMING).then(
                 (response) => {
                     const results = response.data.results

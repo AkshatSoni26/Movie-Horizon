@@ -15,7 +15,6 @@ function Search() {
 
     function searchfun(search) {
 
-        console.log('searchfun=====.>', search)
         axios.get(
             `https://api.themoviedb.org/3/search/movie?query=${search}`,
             {
@@ -27,7 +26,6 @@ function Search() {
             }
         ).then(
             (response) => {
-                console.log(response.data.results)
                 setSearchData(response.data.results)
             }
         ).catch(

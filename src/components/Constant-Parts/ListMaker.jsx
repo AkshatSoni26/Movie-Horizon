@@ -5,11 +5,11 @@ import { FRONTENED_URL } from '../../url/url.js';
 
 const ListMaker = ({ data }) => {
 
-    console.log('ListMaker =================================>', data);
+    // console.log('ListMaker =================================>', data);
 
     const { id } = useParams()
 
-    console.log('id===========>', id);
+    // console.log('id===========>', id);
 
     const navigate = useNavigate()
 
